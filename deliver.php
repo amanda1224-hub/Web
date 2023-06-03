@@ -13,7 +13,7 @@
 <body>
     <header>
        <div class="menu">
-           <li><a href="category.php">Nữ</a></li>
+           <li><a href="">Nữ</a></li>
            
            <li><a href="">Nam</a></li>
            <li><a href="">Trẻ em</a></li>
@@ -22,10 +22,30 @@
        <div class="others">
            <li><input placeholder="Tìm kiếm" type="text" <i class="fas fa-search"></i></li>
            <li><a class="fa fa-paw" href=""></a></li>
-           <li><a class="fa fa-user" href="/cmcweb/user.php"></a></li>
+           <li><a class="fa fa-user" href=""></a></li>
            <li> <a class="fa fa-shopping-bag" href="" ></a></li>
        </div>
    
-    </header>   
+    </header>
+    <section class="deliver">
+        <div class="container">
+            <div class="cart-top">
+                <div class="cart-top-cart ">
+                    <i class="fas fa-shopping-cart "></i>
+                </div>
+                <div class="cart-top-address cart-top-item">
+                <i class="fas fa-map-marker-alt cart-top-item"></i> </div>
+            <div class="cart-top-payment m">
+            <i class="fas fa-money-check-alt "></i>
+            </div>
+
+            
+        </div>
+        <div class="delivery-content-left-button row"> 
+            <a href=""><span>&#171;</span><p>Quay lại giỏ hàng</p></a> 
+            <button><p style="font-weight: bold;"><a href="payment.php">THANH TOÁN VA GIAO HANG</a></p></button> 
+        </div>
+        
+    </section>
    </body>
 </html>
